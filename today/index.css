@@ -1,0 +1,112 @@
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9aeae; /* Added background color */
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  height: 70%;
+  margin: 5rem;
+  background-color: #f0f0f0;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 80px 20px 20px;
+  box-sizing: border-box;
+}
+
+.profile-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-name {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 50px; /* Adjust margin */
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+  text-align: center; /* Center text */
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.stats div span {
+  font-size: 1.5rem; /* Larger font size for numbers */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+
+  width: 50%;
+  /* gap: 10px; */
+}
+
+.social-icons img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+  gap: 8rem;
+}
+
+.action-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #fff;
+  color: navy;
+}
+.action-buttons button:first-child {
+  background-color: blueviolet;
+  color: white;
+  padding-right: 3rem;
+  padding-left: 3rem;
+   width: 10rem;
+}
+
+.action-buttons button:last-child {
+  background-color: #4caf50;
+  color: white;
+  padding-right: 3rem;
+ padding-left: 3rem;
+  width: 10rem;
+}
